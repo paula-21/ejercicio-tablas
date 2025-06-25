@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Ejercicio de una tabla (Números)</title>
+    <style>
+        td {
+            background-color: bisque;
+            width: 130px;
+            height: 70px;
+            text-align: center;
+        }
+        caption{
+            caption-side: bottom;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Ejercicio de una tabla</h2>
+    <table>
+        
+      <tr>
+        <td>
+          <ol>
+            <li>1.1</li>
+            <li>1.2</li>
+            <li>1.3</li>
+          </ol>
+        </td>
+        <td>2</td>
+        <td colspan="2">3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td rowspan="2">
+          <ul>
+            <li>5.1</li>
+            <li>5.2</li>
+            <li>5.3</li>
+          </ul>
+        </td>
+        <td>8</td>
+        <td colspan="2">9</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td rowspan="2">11</td>
+        <td>12</td>
+        <td>
+          <dl>
+            <dt>13.1</dt>
+            <dt>13.2</dt>
+            <dt>13.3</dt>
+          </dl>
+        </td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>15</td>
+        <td colspan="2">16</td>
+      </tr>
+      <caption>CAPTION DE LA TABLA</caption>
+    </table>
+</body>
+</html>
