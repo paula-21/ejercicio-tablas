@@ -7,7 +7,7 @@ let active = true;
 var casa; 
 let telefono = null;
 let sym = Symbol("Test");
-let cedula = 1010025636;
+let bigInt = 3n ** 23n;
 
 // mostrar variables en consola:
 console.log("Edad: " + edad);
@@ -17,7 +17,12 @@ console.debug("Animal: " + animal);
 console.group([nombre, animal, edad]);
 console.groupCollapsed([telefono, active]);
 console.groupEnd();
-console.table(cedula);
+console.table({
+    bigInt,
+    nombre,
+    telefono,
+    active
+});
 console.timeEnd("contador");
 
 //reasignacion de variables
@@ -28,7 +33,7 @@ active = false;
 casa = 221;
 telefono = 3015108586;
 sym = Symbol("Otro test");
-cedula = 1001343110;
+bigInt = 1001343110;
 
 
 // mostrar variables en consola por segunda vez:
@@ -40,4 +45,4 @@ console.debug("Animal: " + animal);
 console.group([nombre, animal, edad]);
 console.groupCollapsed([telefono, active]);
 console.groupEnd();
-console.table(cedula);
+console.table(bigInt);
