@@ -221,10 +221,14 @@
                     <input type="Edad" id="Edad" name="Edad" required>
                     <br><br>
                     <label for="Genero">Género:</label>
-                    <select id="Genero" name="Genero">
-                        <option value="Femenino">Femenino</option>
-                        <option value="Masculino">Masculino</option>
-                    </select>
+                    <div>
+                        <label for="Femenino">Femenino</label>
+                        <input type="radio" id="Femenino" name="Genero" value="Femenino" checked>
+                    </div>
+                    <div>
+                        <label for="Masculino">Masculino</label>
+                        <input type="radio" id="Genero" name="Genero" value="Masculino" checked>
+                    </div>
                     <br><br>
                     <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
                     <input type="date" id="Fecha de nacimiento" name="Fecha de nacimiento" required>
@@ -238,6 +242,42 @@
                     <button type="submit">Enviar</button>
                     <button type="reset">Restablecer</button>
                 </section>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <em>
+                        <strong>Formación académica</strong> 
+                    </em>
+                </legend>
+                <textarea name="FormacionAcademica" id="FormacionAcademica"></textarea>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <em>
+                        <strong>Tecnologías</strong> 
+                    </em>
+                </legend>
+                <textarea name="Tecnologias" id="Tecnologias"></textarea>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <em>
+                        <strong>Núcleo familiar</strong> 
+                    </em>
+                </legend>
+                <textarea name="NucleoFamiliar" id="NucleoFamiliar"></textarea>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <em>
+                        <strong>Experiencia laboral</strong> 
+                    </em>
+                </legend>
+                <textarea name="ExperienciaLaboral" id="ExperienciaLaboral"></textarea>
+                <br><br>
             </fieldset>
             
         </form>
