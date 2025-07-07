@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #699ff0;
+    color: #0e0d0d;
+    display: block;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #00d9ff;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+#app {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    flex-grow: 1;
+    padding: 0 15px;
+}
+
+#profile-sidebar {
+    flex: 1;
+    background-color: rgb(253, 252, 253);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-self: flex-start; /* Para que no se estire */
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 3px solid #040404;
+}
+#posts-section {
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(10, 10, 10, 0.1);
+}
+

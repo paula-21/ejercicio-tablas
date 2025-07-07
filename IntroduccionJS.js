@@ -21,7 +21,8 @@ console.table({
     bigInt,
     nombre,
     telefono,
-    active
+    active,
+    sym
 });
 console.timeEnd("contador");
 
