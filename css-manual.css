@@ -8,12 +8,12 @@ body {
 }
 .perfil {
   width: 100%;
-  max-width: 600px;
+  max-width: 1140px;
   background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   border: 10px solid transparent;
-  padding: 1px;
+  padding: 20px;
   animation: slidein 1s ease-out;
 }
 .perfil-2 {
