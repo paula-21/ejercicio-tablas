@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi propia Pokédex</title>
+    <link rel="stylesheet" href="./mi-propia-pokedex.css">
+    
+</head>
+<body>
+    <main class="principal">
+        <aside class="lista">
+            <em>
+                <h2>Listado pokémon 🧾</h2>
+            </em>
+            <div class="filtros">
+                <button class="button" id="btn-mostar-fav">Mostar favoritos ❤️</button>   
+            </div>
+            <div class="lista-pokemon" id="lista-pokemon"></div>
+            <paginacion-control id="paginacion"></paginacion-control>
+            <br><br>
+        </aside>
+        <pokemon-tarjeta id="pokemon-detalle"></pokemon-tarjeta>
+    </main>
+    <script src="./pokemon.js"></script>
+    <script src="./pokemon-tarjeta.js"></script>
+    <script src="./paginacion.js"></script>
+    <script src="./pokedex.js"></script>
+    
+</body>
+</html>
