@@ -1,0 +1,42 @@
+import { css, unsafeCSS } from 'lit-element';
+import * as foundations from '@bbva-web-components/bbva-foundations-styles';
+
+export default css`
+:host {
+  display: block;
+  box-sizing: border-box;
+}
+
+:host([hidden]), [hidden] {
+  display: none !important;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+p {
+  color: blue;
+}
+
+select {
+  padding: 10px 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: aquamarine;
+  border: none;
+}
+
+.contenedor {
+  display: block;
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2 {
+  padding: 10px;
+}
+`;
